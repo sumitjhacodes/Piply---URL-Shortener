@@ -1,30 +1,21 @@
 {
   "compilerOptions": {
-    /* Target & Environment */
-    "target": "ES2022",                          /* Specify ECMAScript target version */
-    "module": "NodeNext",                        /* Specify module code generation */
-    "moduleResolution": "NodeNext",              /* Determine how modules get resolved */
-    
-    /* Emit Options */
-    "outDir": "./dist",                          /* Redirect output structure to the directory */
-    "rootDir": "./src",                          /* Specify the root folder of input files */
-    "removeComments": true,                      /* Do not emit comments to JavaScript */
-    
-    /* Strict Type-Checking Options */
-    "strict": true,                              /* Enable all strict type-checking options */
-    "noImplicitAny": true,                       /* Raise error on expressions and declarations with an implied 'any' type */
-    "strictNullChecks": true,                    /* Enable strict null checks */
-    
-    /* Additional Checks */
-    "noUnusedLocals": true,                      /* Report errors on unused locals */
-    "noUnusedParameters": true,                  /* Report errors on unused parameters */
-    "noImplicitReturns": true,                   /* Report error when not all code paths in function return a value */
-    
-    /* Interop Constraints */
-    "esModuleInterop": true,                     /* Enables emit interoperability between CommonJS and ES Modules */
-    "forceConsistentCasingInFileNames": true,   /* Disallow inconsistently-cased references to the same file */
-    "skipLibCheck": true                         /* Skip type checking of declaration files */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   },
-  "include": ["src/**/*"],                       /* Include all files in the src directory */
-  "exclude": ["node_modules", "dist"]            /* Exclude dependencies and production build folder */
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
